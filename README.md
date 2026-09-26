@@ -3,7 +3,6 @@
 > **BaaS Sponsor Bank Continuous Parity & Real-Time Shadow Ledger Engine**  
 > *The Mathematical Solution to the Synapse / Evolve Sponsor Bank Insolvency Crisis*  
 > Direct Integration with **[a2zsoc.com](https://a2zsoc.com)** Evidence Vault & FDIC Part 370 Attestation  
-> Connected to **2,000 Workflows**: `Cluster_09 (Embedded Finance BaaS)` & `Cluster_06 (Double-Entry GL)`
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
@@ -69,16 +68,14 @@ flowchart TD
 
 ---
 
-## 🔄 Linkage to the 2,000 Workflows Ecosystem
+## 🔄 Standardized Operational Banking Scope
 
-This standalone engine acts as the execution backbone for workflows in:
-* **[`fintech_payments_banking_1000_workflows/Cluster_09_Embedded_Finance_BaaS_Platform_0801_0900`](file:///Users/ahmedhassan/Downloads/2000%20workflows/fintech_payments_banking_1000_workflows/Cluster_09_Embedded_Finance_BaaS_Platform_0801_0900)**:
-  * Workflows `0801–0830`: Sponsor bank FBO omnibus account continuous balance crosswalk.
-  * Workflows `0831–0860`: Real-time FedNow / ACH settlement drift circuit breakers.
-  * Workflows `0861–0900`: BaaS middleware automated consent order & compliance telemetry.
-* **[`fintech_payments_banking_1000_workflows/Cluster_06_Ledger_Reconciliation_DoubleEntry_GL_0501_0600`](file:///Users/ahmedhassan/Downloads/2000%20workflows/fintech_payments_banking_1000_workflows/Cluster_06_Ledger_Reconciliation_DoubleEntry_GL_0501_0600)**:
-  * Workflows `0501–0550`: Continuous double-entry invariant verification ($\sum \text{Debits} - \sum \text{Credits} \equiv 0$).
-  * Workflows `0551–0600`: Suspense account automated clearing & root-cause attribution.
+This standalone engine codifies and automates continuous ledger reconciliation:
+* **FBO Omnibus Account Parity**: Real-time crosswalk between fintech virtual ledgers and bank core DDA accounts.
+* **Settlement Drift Circuit Breakers**: Instant automated quarantine on ACH return spikes, Fedwire mismatches, and FedNow instant rail drift.
+* **Continuous Double-Entry Invariants**: SMT-verified conservation proofs ($\sum \text{Debits} - \sum \text{Credits} \equiv 0$).
+* **Automated FDIC Part 370**: Recordkeeping partitioning for deposit insurance determination within regulatory examination SLAs.
+* **Suspense Root-Cause Resolution**: Automated attribution of pending card authorizations and clearing timing lags.
 
 ---
 
