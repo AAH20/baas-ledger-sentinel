@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baas-ledger-sentinel"
+version = "1.0.0"
+description = "BaaS Sponsor Bank Continuous Parity & Real-Time Shadow Ledger Engine (Solving the Synapse/Evolve Crisis)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Ahmed Hassan", email = "contact@a2zsoc.com" }
+]
+dependencies = [
+  "pydantic>=2.0",
+]
+
+[project.scripts]
+baas-sentinel = "baas_ledger_sentinel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["baas_ledger_sentinel*"]
